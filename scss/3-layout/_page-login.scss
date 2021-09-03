@@ -1,0 +1,68 @@
+@use "../1-base/base-index" as v;
+
+.main-content {
+  .main-content__mockup {
+    padding: 2.0625rem;
+  }
+
+  .login {
+    border: 1px solid v.$border-color;
+
+    width: 21.875rem;
+
+    min-height: 23.75rem;
+
+    text-align: center;
+
+    padding: 1.25rem;
+
+    background-color: v.$primary-color;
+
+    .logo-instagram {
+      width: 184px;
+
+      margin-bottom: 30px;
+    }
+
+    input {
+      margin-bottom: 0.1875rem;
+
+      height: 2.375rem;
+
+      width: 16.75rem;
+
+      background-color: v.$background-color;
+
+      border: 1px solid v.$border-color;
+
+      padding: 0 0.875rem;
+
+      border-radius: 0.1875rem;
+    }
+
+    .or {
+      width: 100%;
+    }
+
+    .left-line {
+      background-color: v.$secondary-text-color;
+
+      height: 0.0625rem;
+
+      width: 6.875rem;
+    }
+
+    .right-line {
+      background-color: v.$secondary-text-color;
+
+      height: 0.0625rem;
+
+      width: 6.875rem;
+    }
+    .link {
+      color: v.$link-color;
+      text-decoration: none;
+      font-family: v.$primary-font;
+    }
+  }
+}

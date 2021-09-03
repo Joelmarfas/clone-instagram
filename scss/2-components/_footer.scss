@@ -1,0 +1,23 @@
+@use "../1-base/base-index" as v;
+
+.footer {
+  background-color: v.$background-color;
+
+  font-size: v.$footer-font-size;
+
+  height: 60px;
+
+  .footer__menu {
+    list-style-type: none;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 60%;
+  }
+
+  .footer_copyright {
+    width: 40%;
+  }
+}

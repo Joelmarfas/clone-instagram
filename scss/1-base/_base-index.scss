@@ -1,4 +1,4 @@
-@import "variables";
-@import "base";
-@import "helpers";
-@import "typography";
+@forward "variables";
+@forward "base";
+@forward "helpers";
+@forward "typography";

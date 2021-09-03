@@ -1,3 +1,4 @@
-@import "header/header-index";
-@import "content";
-@import "footer";
+@use "header/header-index";
+@use "content";
+@use "footer";
+@use "buttons";

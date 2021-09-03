@@ -1,0 +1,9 @@
+@use "../1-base/variables" as v;
+
+p {
+  font-family: v.$primary-font;
+
+  font-size: 12px;
+
+  color: v.$secondary-text-color;
+}
