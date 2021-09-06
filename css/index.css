@@ -9,8 +9,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   width: 100%;
+}
+body main {
+  width: 100%;
+  height: 100vh;
 }
 body footer {
   position: relative;
@@ -22,6 +25,11 @@ body footer {
   margin: 99px 0 0 151px;
 }
 
+@media all and (max-width: 720px) {
+  .main-content__mockup {
+    display: none;
+  }
+}
 p {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -37,16 +45,22 @@ main {
 .footer {
   background-color: #fafafa;
   font-size: 12px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   height: 60px;
+  padding: 0 50px 20px 50px;
 }
 .footer .footer__menu {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   width: 60%;
+  color: #282875;
+  padding: 10px;
+  flex-wrap: wrap;
 }
-.footer .footer_copyright {
+.footer .footer__copyright {
   width: 40%;
+  color: #aeaeae;
 }
 
 .login-btn {
@@ -82,6 +96,13 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.--flex-row-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 .main-content .main-content__mockup {
@@ -125,4 +146,37 @@ main {
   color: #170cb4;
   text-decoration: none;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+}
+.main-content .login .link img {
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.signup {
+  border: 1px solid #dbdbdb;
+  width: 21.875rem;
+  min-height: 3.5rem;
+  text-align: center;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.getapp {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.apps {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  padding: 10px;
+}
+.header .header__controlers {
+  width: 150px;
 }/*# sourceMappingURL=index.css.map */

@@ -63,6 +63,34 @@
       color: v.$link-color;
       text-decoration: none;
       font-family: v.$primary-font;
+      margin-top: 20px;
+      img {
+        margin-right: 10px;
+        border-radius: 3px;
+      }
     }
   }
+}
+
+.signup {
+  border: 1px solid v.$border-color;
+
+  width: 21.875rem;
+
+  min-height: 3.5rem;
+
+  text-align: center;
+
+  padding: 1.25rem;
+
+  background-color: v.$primary-color;
+  margin-top: 10px;
+}
+.getapp {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.apps {
+  text-align: center;
 }
