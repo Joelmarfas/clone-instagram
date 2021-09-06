@@ -88,7 +88,7 @@
   margin-top: 10px;
 }
 .getapp {
-  text-align: center;
+  @extend .apps;
   padding-top: 20px;
   padding-bottom: 20px;
 }
