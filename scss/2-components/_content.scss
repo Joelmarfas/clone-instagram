@@ -1,9 +1,1 @@
 @use "../1-base/base-index" as v;
-
-main {
-  background-color: v.$background-color;
-
-  width: 100%;
-
-  height: 100vh;
-}
