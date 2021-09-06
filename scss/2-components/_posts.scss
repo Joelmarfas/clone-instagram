@@ -1,0 +1,18 @@
+@mixin post {
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px 0 10px 0;
+}
+.post-1 {
+  @include post();
+}
+
+.post-2 {
+  @include post();
+}
+
+.post-img {
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}

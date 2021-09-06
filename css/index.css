@@ -71,6 +71,24 @@ main {
   margin: 1.0625rem 0;
 }
 
+.post-1 {
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.post-2 {
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.post-img {
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}
+
 .--flex-row-center {
   display: flex;
   justify-content: center;
