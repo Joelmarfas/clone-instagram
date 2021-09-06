@@ -87,11 +87,11 @@
   background-color: v.$primary-color;
   margin-top: 10px;
 }
-.getapp {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .apps {
   text-align: center;
+}
+.getapp {
+  @extend .apps;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
