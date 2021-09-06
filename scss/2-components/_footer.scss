@@ -12,14 +12,15 @@
   .footer__menu {
     list-style-type: none;
 
-    display: flex;
+    //display: flex;
 
-    justify-content: space-between;
+    //justify-content: space-between;
 
     width: 60%;
     color: rgb(40, 40, 117);
     padding: 10px;
     flex-wrap: wrap;
+    font-weight: bold;
   }
 
   .footer__copyright {

@@ -10,10 +10,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: #fafafa;
 }
 body main {
   width: 100%;
-  height: 100vh;
 }
 body footer {
   position: relative;
@@ -39,7 +39,6 @@ p {
 main {
   background-color: #fafafa;
   width: 100%;
-  height: 100vh;
 }
 
 .footer {
@@ -51,12 +50,11 @@ main {
 }
 .footer .footer__menu {
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
   width: 60%;
   color: #282875;
   padding: 10px;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 .footer .footer__copyright {
   width: 40%;
@@ -105,6 +103,9 @@ main {
   width: 100%;
 }
 
+.main-content {
+  padding: 5vh;
+}
 .main-content .main-content__mockup {
   padding: 2.0625rem;
 }
